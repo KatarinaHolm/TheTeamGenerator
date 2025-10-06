@@ -11,6 +11,7 @@ namespace TheTeamGenerator
         //Property
         public List<Student> ClassList { get; set; }
 
+      
         //Constructor
         public Roster()
         {
@@ -37,6 +38,6 @@ namespace TheTeamGenerator
         {
             return ClassList.Count();  
         }
-
+              
     }
 }

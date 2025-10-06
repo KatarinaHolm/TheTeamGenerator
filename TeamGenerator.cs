@@ -40,11 +40,6 @@ namespace TheTeamGenerator
 
                 for (int i = 0; i < membersPerTeam; i++)
                 {
-                    //if (tempList.Count==0)
-                    //{
-                    //    break;
-                    //}
-
                     int index = GetRandomNumber(tempList.Count);
 
                     team.Add(tempList[index]);
