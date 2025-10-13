@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            ConsoleUI ui = new ConsoleUI();
+            var ui = new ConsoleUI();
            
             ui.ShowMenu();      
             
